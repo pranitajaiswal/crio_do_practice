@@ -1,0 +1,33 @@
+//requirement.
+//Create three vehicle class. Car, Aeroplane and Cycle. 
+// For Car two methods speedup var trafiic y or no, break, slowdown, blowhorn
+//For Aeroplane - Aeroplane taxi(gatenumber)
+
+
+// // car
+// - speedup (speed, check_traffic)
+// - break -> brings vehicle speed to 0
+// - slowdown -> (speed, check if car is there at back)
+
+// // Aeroplane
+// -Aeroplane (gate_number,gate_open_chck)
+// -Land(Runway_chck,weatherconditions_chck)
+// -Take_off(weatherconditions_chck,mandatory_techchck,Runway_check,passegener_Ready_check)
+
+public class vehicle{
+    public String transportation_mode;
+    public String vehicle_type;
+
+    public vehicle(String transportation_mode,String vehicle_type){
+        this.transportation_mode=transportation_mode;
+        this.vehicle_type=vehicle_type;
+    }
+    public String getTransportation_mode(){
+        return transportation_mode;
+    }
+
+     public String getVehicleType(){
+        return vehicle_type;
+    }
+    
+}
